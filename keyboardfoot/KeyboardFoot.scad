@@ -46,8 +46,6 @@ cylinder(r=1,h=5, center = true);
 
 translate([12.1,3.35,0])
 cylinder(r=1,h=5, center = true);
-
-
 }
 
 translate([1.9,15.5,-0.5])
