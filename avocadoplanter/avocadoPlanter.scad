@@ -1,6 +1,4 @@
 $fn=100;
-//translate([12.1,3.35,0])
-
 
 difference(){
 	rotate([0,0,0])
