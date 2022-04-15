@@ -55,7 +55,10 @@ cylinder(d=4,h=1);
 
 
 // This below can be removed in order to print
-//translate([0,20,0])
+//translate([0,30,0])
+//cube([100,100,50],center=true);
+//
+//translate([0,7,30])
 //cube([100,100,50],center=true);
 }
 
