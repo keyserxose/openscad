@@ -11,13 +11,16 @@ cylinder(d=21,h=1);
 
 minkowski() {
 translate([0,0,1.75])
-cube([55,55,31.6],center=true);
+cube([55,55,33.6],center=true);
 cylinder(d=21,h=1);
 }
 
+//Test
+translate([-9,-39,1.5])
+cube([24,5,23],center=true);
 
-translate([-12,-39,1.50])
-cube([30,5,23],center=true);
+//translate([-12,-39,1.50])
+//cube([30,5,23],center=true);
 
 translate([38,17,5])
 cube([10,38.8,30],center=true);
